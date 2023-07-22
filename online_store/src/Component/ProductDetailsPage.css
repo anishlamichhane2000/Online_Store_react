@@ -1,0 +1,126 @@
+
+/* Set the background color to white */
+
+body {
+
+  color: #000;
+  font-family: Arial, sans-serif;
+   background-image: url('https://media.bazaarvoice.com/Shutterstock_2113510805-1030x541.png')
+}
+
+/* Add a border at the top of the page */
+header {
+  border-top: 4px solid #2874f0;
+}
+
+/* Center the logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Style the product details container */
+.product-details-container {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: flex-start;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: pink;
+  background-image: url('https://media.bazaarvoice.com/Shutterstock_2113510805-1030x541.png')
+  
+}
+
+/* Style the product image container */
+.product-details-left {
+  flex: 1;
+  min-width: 0;
+  margin-right: 20px;
+}
+
+/* Style the product image */
+.product-details-left img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* Style the product details container */
+.product-details-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Style the product title */
+.product-details-right h1 {
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+
+
+/* Style the product description */
+.product-details-right p:last-child {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+
+}
+
+/* Style the Add to Cart button */
+button {
+  background-color: #ff9f00;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #fb641b;
+}
+
+/* Style the Go to Cart button */
+.go-to-cart {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  
+}
+
+.go-to-cart button {
+  background-color:red;
+  color: red;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.go-to-cart button:hover {
+  
+  background-color: red;
+}
+
+.Productprice{
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px; /* Increase the font size */
+  
+
+}

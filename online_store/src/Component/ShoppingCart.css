@@ -1,0 +1,146 @@
+/* Set the background color to blue */
+body {
+  background-color: #f3f3f3;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px; /* Increase the max width */
+  margin: 20px auto; /* Add some margin */
+  padding: 20px;
+  background-color: #fff; /* Add a white background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+}
+
+h1 {
+  font-size: 28px; /* Increase the font size */
+  margin-bottom: 20px;
+  text-align: center; /* Center the heading */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 2rem;
+  color:black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd; /* Add a border between items */
+  padding-bottom: 20px; /* Add some spacing below each item */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 20%; 
+  height: 80%; 
+}
+
+.cart-item img {
+  width: 100px; /* Increase the image size */
+  height: 130px; /* Increase the image size */
+  margin-right: 20px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.item-details {
+  flex: 1;
+  font-weight: bold;
+}
+
+.item-details p {
+  margin: 0;
+  font-size: 18px; /* Increase the font size */
+  line-height: 1.2; /* Add some spacing between lines */
+}
+
+.item-details p.title {
+  font-weight: bold; /* Make the title bold */
+  margin-bottom: 5px; /* Add some spacing below the title */
+}
+
+.item-details p.price {
+  font-weight: bold; /* Make the price bold */
+  margin-top: 10px; ;/* Add some spacing above the price */
+}
+
+.item-details p.stock {
+  color: #888; /* Add a gray color to show stock availability */
+  margin-top: 10px; /* Add some spacing above the stock availability */
+}
+
+.item-details p.stock.out-of-stock {
+  color: #ff5555; /* Make out-of-stock items red */
+}
+
+button {
+  background-color: #ff5555;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px; /* Increase the font size */
+  font-weight: bold; /* Make the total bold */
+}
+
+.cart-total p {
+  color: red;
+  margin: 0;
+}
+.t
+
+.checkout-btn {
+  background-color: #febd69; /* Add a yellow background color */
+  color: #333;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px; /* Increase the font size */
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.checkout-btn:hover {
+  background-color: #fdbd39; /* Darken the background color on hover */
+}
+
+.Totalprice{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px; /* Increase the font size */
+  font-weight: bold;
+
+}
+
+.cart-empty{
+  color: black;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  flex-grow: 1;
+  margin-right: 20px;
+}
