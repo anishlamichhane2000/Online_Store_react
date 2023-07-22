@@ -36,4 +36,4 @@ To deploy the application, copy the contents of the build/ directory to your web
 Known Issues
 None at this time.
 Contact
-If you have any questions or issues, please contact the project team at project-team@example.com.
+If you have any questions or issues, please contact the project team at anishlamichhane65@gmail.com
